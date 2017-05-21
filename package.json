@@ -6,7 +6,7 @@
   "private": true,
   "main": "main.js",
   "scripts": {
-    "startweb": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "dependencies": {
     "expo": "17.0.0",
