@@ -5,9 +5,27 @@
   "author": null,
   "private": true,
   "main": "main.js",
+  "scripts": {
+		"startweb": "webpack-dev-server"
+	},
   "dependencies": {
     "expo": "17.0.0",
     "react": "16.0.0-alpha.6",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz"
-  }
+    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
+    "html-webpack-plugin": "^2.28.0",
+		"path": "^0.12.7",
+		"react-dom": "16.0.0-alpha.6",
+		"webpack": "^2.5.1",
+		"webpack-dev-server": "^2.4.5"
+  },
+	"devDependencies": {
+		"babel-core": "^6.24.1",
+		"babel-jest": "20.0.1",
+		"babel-loader": "^7.0.0",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-react-native": "1.9.2",
+		"react-test-renderer": "16.0.0-alpha.6",
+		"eslint-config-rallycoding": "^3.2.0"
+	}
 }
