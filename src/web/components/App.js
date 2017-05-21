@@ -2,12 +2,10 @@
     ./src/web/components/App.jsx
 */
 import React from 'react';
+import Header from './header';
 
 export default class App extends React.Component {
   render() {
-    return (
-     <div>
-        <h1>Hello World</h1>
-      </div>);
+    return (<Header headerText={'Albums!'} />);
   }
 }
