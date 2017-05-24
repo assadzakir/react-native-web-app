@@ -11,7 +11,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 })
 
 module.exports = {
-  entry: './main.web.js',
+  entry: ['babel-polyfill', './main.web.js'],
   output: {
     path: path.resolve('web/public'),
     filename: 'index_bundle.js'

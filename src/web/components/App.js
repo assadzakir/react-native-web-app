@@ -3,9 +3,15 @@
 */
 import React from 'react';
 import Header from './header';
+import AlbumList from './AlbumList'
 
 export default class App extends React.Component {
   render() {
-    return (<Header headerText={'Albums!'} />);
+    return (
+      <div>
+        <Header headerText={'Albums!'} />
+        <AlbumList />
+      </div>
+    );
   }
 }
