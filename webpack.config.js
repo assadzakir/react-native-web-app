@@ -18,8 +18,8 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.js$/, loader: 'babel-loader', query: { presets: ['es2015', 'react'] }, exclude: /node_modules/ },
-      { test: /\.jsx?$/, loader: 'babel-loader', query: { presets: ['es2015', 'react'] }, exclude: /node_modules/ }
+      { test: /\.js$/, loader: 'babel-loader', query: { presets: ['es2015', 'react','stage-0'] }, exclude: /node_modules/ },
+      { test: /\.jsx?$/, loader: 'babel-loader', query: { presets: ['es2015', 'react','stage-0'] }, exclude: /node_modules/ }
     ]
   },
   plugins: [HtmlWebpackPluginConfig]
