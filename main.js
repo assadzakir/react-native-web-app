@@ -7,7 +7,7 @@ import AlbumsList from './src/native/components/AlbumList';
 class App extends React.Component {
   render() {
     return (
-      <View>
+      <View style={{ flex: 1 }}>
         <Header headerText={'Albums!'} />
         <AlbumsList />
       </View>
